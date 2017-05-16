@@ -9,7 +9,7 @@ setInterval(drawClock, 1000);
 function drawClock() {
     drawFace(ctx, radius);
     ctx.arc(0, 0, radius, 0 , 2*Math.PI);
-    ctx.fillStyle = "white";
+    ctx.fillStyle = '#edda8e';
     ctx.fill();
 }
 
@@ -25,7 +25,7 @@ function drawFace(ctx, radius) {
 
     ctx.beginPath();
     ctx.arc(0, 0, radius, 0, 2*Math.PI);
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = '#edda8e';
     ctx.fill();
 
     grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
