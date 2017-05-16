@@ -30,7 +30,7 @@ function drawFace(ctx, radius) {
 
     grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
     grad.addColorStop(0, '#333');
-    grad.addColorStop(0.5, 'white');
+    grad.addColorStop(0.5, '#C16200');
     grad.addColorStop(1, '#333');
     ctx.strokeStyle = grad;
     ctx.lineWidth = radius*0.1;
@@ -74,7 +74,7 @@ function drawHand(ctx, pos, length, width) {
 function drawNumbers(ctx, radius) {
     var ang;
     var num;
-    ctx.font = radius*0.15 + "px arial";
+    ctx.font = radius*0.15 + "px Barrio";
     ctx.textBaseline="middle";
     ctx.textAlign="center";
     for(num= 1; num < 13; num++){

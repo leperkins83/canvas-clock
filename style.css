@@ -7,3 +7,10 @@ body {
     display: block;
     margin: 0 auto;
 }
+h1{
+  font-family: 'Barrio', cursive;
+  text-align: center;
+  color: #edda8e;
+
+
+}
